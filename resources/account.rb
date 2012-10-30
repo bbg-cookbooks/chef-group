@@ -21,6 +21,7 @@ actions :create, :remove, :modify, :manage, :lock, :unlock
 
 attribute :group_name, :kind_of => String, :name_attribute => true
 attribute :gid,        :kind_of => [String,Integer]
+attribute :append,     :default => false
 attribute :system,     :default => false
 attribute :members,    :default => []
 
