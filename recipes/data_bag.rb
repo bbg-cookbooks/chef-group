@@ -18,12 +18,13 @@
 #
 
 bag = group_data_bag = node["group"]["data_bag_name"]
-groups = node["groups"]
+groups = Array(node["groups"])
 
 # only manage the subset of groups specified in the node attrs
 groups.each do |g|
   group = data_bag_item(bag, g)
-  group_account group do
+  group_name = group['group_name'] || group['id']
+  group_account group_name do
     %w{ group_name gid members append system }.each do |attr|
       send(attr, group[attr]) if group[attr]
     end
