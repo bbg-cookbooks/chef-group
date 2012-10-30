@@ -1,6 +1,6 @@
 #
 # Cookbook Name:: group
-# Resource:: group
+# Resource:: account
 #
 # Copyright 2012, Blue Box Group, LLC
 #
