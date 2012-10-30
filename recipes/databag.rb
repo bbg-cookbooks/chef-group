@@ -18,7 +18,7 @@
 #
 
 bag = group_data_bag = node["group"]["data_bag_name"]
-groups = node["group"]["groups"]
+groups = node["groups"]
 
 # only manage the subset of groups specified in the node attrs
 groups.each do |g|
