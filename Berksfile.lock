@@ -1,0 +1,1 @@
+cookbook 'group', :path => '/Users/clundquist/code/ruby/chef/cookbooks/chef-group'
