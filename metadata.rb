@@ -1,3 +1,4 @@
+name             "group"
 maintainer       "Blue Box Group, LLC"
 maintainer_email "support@bluebox.net"
 license          "Apache 2.0"
